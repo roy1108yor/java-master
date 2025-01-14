@@ -2,3 +2,32 @@
 /target/
 .idea/
 src/main/resources/application-localhost.properties
+
+# Clacky-related
+.1024*
+!.1024
+.breakpoints
+
+# Java-specific
+*.class
+*.log
+hs_err_pid*
+
+# Maven-specific
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/
+
+# IDE-specific
+.vscode/
+*.iml
+.idea/
+.project
+.settings/
+.classpath
