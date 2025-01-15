@@ -3,10 +3,6 @@
 .idea/
 src/main/resources/application-localhost.properties
 
-# Clacky-related
-.1024*
-!.1024
-.breakpoints
 
 # Java-specific
 *.class
