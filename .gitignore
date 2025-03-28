@@ -27,3 +27,8 @@ buildNumber.properties
 .project
 .settings/
 .classpath
+
+# Clacky-related configuration
+.1024*
+!.1024
+.breakpoints
