@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Boot &amp; MyBatis Seed Project</title>
+    <meta name="description" content="A modern Spring Boot and MyBatis API seed project for rapid development">
+    <link rel="stylesheet" th:href="@{/static/css/style.css}">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <div class="logo-container">
+                <img th:src="@{/static/img/logo.svg}" alt="Spring Boot MyBatis Logo" class="logo-img">
+                <span class="logo-text">Spring Boot &amp; MyBatis</span>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#tech-stack">Tech Stack</a></li>
+                <li><a href="#quick-start">Quick Start</a></li>
+                <li><a href="#documentation">Docs</a></li>
+                <li><a href="https://github.com" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Spring Boot &amp; MyBatis Seed Project</h1>
+                <p class="hero-subtitle">A modern, production-ready foundation for building RESTful APIs with Spring Boot and MyBatis</p>
+                <div>
+                    <a href="#quick-start" class="btn">Get Started</a>
+                    <a href="https://github.com" target="_blank" class="btn btn-outline">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features" id="features">
+        <div class="container">
+            <h2 class="section-title">Core Features</h2>
+            <p class="section-subtitle">Streamlined development with the best of Spring Boot &amp; MyBatis</p>
+            
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="feature-title">Quick Setup</h3>
+                    <p class="feature-description">Ready-to-go project structure with sensible defaults for fast development</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3 class="feature-title">Best Practices</h3>
+                    <p class="feature-description">Follows industry-standard architectural patterns and coding conventions</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="feature-title">SQL Control</h3>
+                    <p class="feature-description">Full control over SQL queries with MyBatis' powerful mapping capabilities</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Secure by Default</h3>
+                    <p class="feature-description">Built-in configurations to protect your API from common vulnerabilities</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="feature-title">Code Generation</h3>
+                    <p class="feature-description">Auto-generate boilerplate code for models, mappers, and services</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Performance Optimized</h3>
+                    <p class="feature-description">Configured for optimal performance with database connection pooling</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="section tech-stack" id="tech-stack">
+        <div class="container">
+            <h2 class="section-title">Technology Stack</h2>
+            <p class="section-subtitle">Built with modern, reliable technologies</p>
+            
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h4 class="tech-name">Spring Boot</h4>
+                    <p>v1.5.13.RELEASE</p>
+                </div>
+                
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h4 class="tech-name">MyBatis</h4>
+                    <p>SQL Mapping Framework</p>
+                </div>
+                
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h4 class="tech-name">RESTful API</h4>
+                    <p>HTTP standards & best practices</p>
+                </div>
+                
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h4 class="tech-name">Thymeleaf</h4>
+                    <p>Modern server-side templates</p>
+                </div>
+                
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-cubes"></i>
+                    </div>
+                    <h4 class="tech-name">Maven</h4>
+                    <p>Dependency management</p>
+                </div>
+                
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h4 class="tech-name">JUnit</h4>
+                    <p>Unit & integration testing</p>
+                </div>
+                
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h4 class="tech-name">FastJson</h4>
+                    <p>Fast JSON processor</p>
+                </div>
+                
+                <div class="tech-item">
+                    <div class="tech-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <h4 class="tech-name">Layered Architecture</h4>
+                    <p>Controller-Service-DAO pattern</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Start Section -->
+    <section class="section quickstart" id="quick-start">
+        <div class="container">
+            <h2 class="section-title">Quick Start Guide</h2>
+            <p class="section-subtitle">Get up and running in minutes</p>
+            
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Clone the repository</h3>
+                        <p class="step-description">Start by cloning the project repository to your local machine.</p>
+                        <div class="code-block">
+                            git clone https://github.com/your-username/spring-boot-mybatis-seed.git
+                            cd spring-boot-mybatis-seed
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Configure your database</h3>
+                        <p class="step-description">Edit the application.properties file to set up your database connection.</p>
+                        <div class="code-block">
+                            spring.datasource.url=jdbc:mysql://localhost:3306/your_database
+                            spring.datasource.username=root
+                            spring.datasource.password=password
+                            spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Build and run</h3>
+                        <p class="step-description">Use Maven to build and run the application.</p>
+                        <div class="code-block">
+                            mvn clean compile
+                            mvn spring-boot:run
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Generate code for your entities</h3>
+                        <p class="step-description">Use the included code generator to create model, mapper, and service classes.</p>
+                        <div class="code-block">
+                            # Edit src/test/java/CodeGenerator.java with your table info
+                            # Then run the generator
+                            mvn test -Dtest=CodeGenerator
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Enjoy rapid development</h3>
+                        <p class="step-description">Your API is now up and running! Access it at <a href="http://localhost:8080">http://localhost:8080</a></p>
+                        <a href="#documentation" class="btn">Read Documentation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documentation Section -->
+    <section class="section" id="documentation">
+        <div class="container">
+            <h2 class="section-title">Documentation</h2>
+            <p class="section-subtitle">Everything you need to know about the project</p>
+            
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3 class="feature-title">API Documentation</h3>
+                    <p class="feature-description">Explore the REST API endpoints and parameters</p>
+                    <a href="#" class="btn btn-outline">View API Docs</a>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="feature-title">Guides & Tutorials</h3>
+                    <p class="feature-description">Learn how to extend and customize the project</p>
+                    <a href="#" class="btn btn-outline">Read Guides</a>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h3 class="feature-title">Project Structure</h3>
+                    <p class="feature-description">Understanding the architecture and design patterns</p>
+                    <a href="#" class="btn btn-outline">Explore Structure</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3 class="footer-title">Spring Boot &amp; MyBatis Seed</h3>
+                    <p>A production-ready foundation for building RESTful services with Spring Boot and MyBatis.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#tech-stack">Tech Stack</a></li>
+                        <li><a href="#quick-start">Quick Start</a></li>
+                        <li><a href="#documentation">Documentation</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://spring.io/" target="_blank">Spring Framework</a></li>
+                        <li><a href="https://mybatis.org/mybatis-3/" target="_blank">MyBatis Documentation</a></li>
+                        <li><a href="https://www.thymeleaf.org/" target="_blank">Thymeleaf</a></li>
+                        <li><a href="https://maven.apache.org/" target="_blank">Maven</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">Contact</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> info@example.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Your Location</li>
+                        <li><a href="https://github.com/issues" target="_blank">Report Issues</a></li>
+                        <li><a href="#" target="_blank">Request Features</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Spring Boot &amp; MyBatis Seed Project. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script th:src="@{/static/js/main.js}"></script>
+</body>
+</html>
